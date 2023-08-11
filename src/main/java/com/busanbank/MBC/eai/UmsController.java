@@ -15,7 +15,7 @@ import com.busanbank.MBC.eai.service.BzsEcmServiceImpl;
 
 
 @RestController
-public class UmsController extends DefaultController {
+public class UmsController {
   @Value("${eai.host}") private String host;
   @Value("${eai.port}") private int port;
   @Value("${eai.env}") private String envType;
